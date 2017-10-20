@@ -1,11 +1,13 @@
 # Sentiment, Tone, and Nature Classifiction of Tweets
 
-This script is used to classify labeled tweets. The following are the recommended classes for each label.
+This script is used to classify labeled tweets using an SVM classifier. 
 
+The following are the recommended classes for each label.
 Sentiment : Postive, Neutral, Negative
 Tone      : Passive, Active, Agressive
 Nature    : Casual, Serious
 
+Twitter dataset not provided due to it's sensitive nature. This script should work for any custom labeled twitter dataset.
 ## Prerequisites
 
 1. CSV file of tweets in the following format:
@@ -23,9 +25,9 @@ Nature    : Casual, Serious
 3. change line #21 to =['tweets', 'label1', 'label2',... 'labeln'], skiprows=1)
 
 ## Running script
-
+```
 python PrepNclassify.py
-
+```
 ## To Do
 
 1. Add twitter data collection scripts.

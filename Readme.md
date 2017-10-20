@@ -6,7 +6,7 @@ Sentiment : Postive, Neutral, Negative
 Tone      : Passive, Active, Agressive
 Nature    : Casual, Serious
 
-### Prerequisites
+## Prerequisites
 
 1. CSV file of tweets in the following format:
    Input CSV file in the following format: Tweets, Label1, label 2, ...label N
